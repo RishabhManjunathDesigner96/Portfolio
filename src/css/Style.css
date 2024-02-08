@@ -1,0 +1,393 @@
+body {
+    font-family: "Roboto";
+}
+
+.Navigation_head .nav-link {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: system-ui;
+    color: #478ecf;
+}
+
+.Navigation_head .nav-link:hover {
+    color: black;
+}
+
+.Navigation_head .navbar-toggler.collapsed {
+    border: none;
+}
+
+.Navigation_head .navbar-brand {
+    font-weight: 800;
+    font-size: 55px;
+    font-family: cursive;
+    background: #478ecf;
+    border-radius: 56px;
+    padding: 15px;
+    color: white;
+}
+
+.Navigation_head .nav_bg {
+
+    padding: 15px;
+}
+
+.Navigation_head .navbar-nav {
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.d_color {
+    color: #215d95;
+}
+
+.banne_head h1 {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: system-ui;
+    color: #478ecf;
+}
+
+#banner_lay {
+    margin: 5% 0px 5% 0px
+}
+
+.banne_head p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.img_responsive {
+    width: 100%;
+    height: auto;
+}
+
+.b_pop {
+    width: 75%;
+    float: right;
+}
+
+.banne_head h4 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color: #215d95;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: system-ui;
+}
+
+.banne_img:before {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 70%;
+    background: #d3eaff;
+    z-index: -1;
+    top: 30%;
+}
+
+.banne_head .nav-link {
+    font-weight: 800;
+    font-size: 17px;
+    color: #478ecf;
+    font-family: system-ui;
+    letter-spacing: 1px;
+}
+
+.banne_head .btn-primary:hover {
+    background: #478ecf;
+    color: white;
+}
+
+.banne_head .btn-warning:focus {
+    background: #ffc107;
+    color: black;
+}
+
+.banne_head .btn-primary {
+    font-weight: 600;
+    color: #478ecf;
+    box-shadow: 0 2px 5px rgba(112, 60, 60, 0.26);
+    margin-right: 5%;
+    padding: 8px 40px;
+    background: white;
+    letter-spacing: 1px;
+    border: 0px;
+    font-size: 14px;
+}
+
+.banne_head .btn-warning {
+    font-weight: 600;
+    background: #478ecf;
+    color: white;
+    box-shadow: 0 2px 5px rgba(112, 60, 60, 0.26);
+    margin-right: 5%;
+    padding: 8px 40px;
+    letter-spacing: 1px;
+    border: 0px;
+    font-size: 14px;
+}
+
+/* Banner 2 */
+
+#banner2 {
+    background: #d3eaff;
+    width: 100%;
+    padding: 3% 10%;
+    text-align: center;
+    color: #215d95;
+    margin-bottom: 5%;
+}
+
+.email_claim h2 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-family: system-ui;
+    padding-bottom: 1%;
+    font-size: 30px;
+}
+
+.email_claim p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    font-weight: 500;
+    font-family: system-ui;
+}
+
+.email_in {
+    width: 60%;
+    display: flex;
+    margin-left: 20%;
+}
+
+.email_claim #button-addon2 {
+    font-size: 13px;
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+.email_claim input.form-control {
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: system-ui;
+    color: #215d95;
+}
+
+a {
+    text-decoration: none;
+    color: #478ecf;
+}
+
+
+/* Add contact */
+.contact_add h5 {
+    font-size: 30px;
+    font-family: system-ui;
+    padding-bottom: 1%;
+    font-weight: 800;
+    color: #215d95;
+}
+
+.contact_info h5 {
+    font-size: 30px;
+    font-family: system-ui;
+    padding-bottom: 1%;
+    font-weight: 800;
+    color: #215d95;
+}
+
+#con_list {
+    width: 75%;
+}
+
+.mar_top {
+    margin-top: 5%;
+}
+
+.contact_add,
+.contact_list p {
+    font-family: system-ui;
+    letter-spacing: 0px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.contact_info p {
+    font-family: system-ui;
+    letter-spacing: 0px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+#Contact_li {
+    width: 55%;
+    padding: 3%;
+    background: #d3eaff;
+}
+
+input.form-control {
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-family: system-ui;
+    color: #215d95;
+    padding: 15px;
+    border: none;
+    border-radius: 0px;
+}
+
+.form_con button.btn_p.btn.btn-warning {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.item_list {
+    cursor: pointer;
+    padding: 3%;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 1%;
+    background: #d3eaff96;
+    transition: 0.5s;
+    position: relative;
+    height: 100px;
+}
+
+.item_list:hover {
+    box-shadow: 0px 5px 13px 0px #e1e1e1f0;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.item_list h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 1% 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: system-ui;
+    width: 80%;
+}
+
+.item_list p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    width: 80%;
+}
+
+.del_ico {
+    color: #cf0d0d;
+    float: right;
+    position: absolute;
+    top: 40%;
+    right: 6%;
+    font-size: 12px;
+}
+
+.edit_ico {
+    color: #2baf1b;
+    float: right;
+    position: absolute;
+    top: 40%;
+    right: 16%;
+    font-size: 12px;
+}
+
+.item_list .css-i4bv87-MuiSvgIcon-root {
+    width: 20px;
+    cursor: pointer;
+}
+
+.img_res.image {
+    width: 12%;
+    padding-bottom: 2%;
+    float: left;
+    padding-right: 2%;
+    max-width: 12%;
+}
+
+.contact_add .btn-outline-success {
+    font-weight: 700;
+    font-size: 13px;
+    border: 1px solid green;
+}
+
+.contact_add .btn-outline-success:hover {
+    font-weight: 700;
+    font-size: 13px;
+    background: #215d95;
+    border: 1px solid #215d95;
+}
+
+.contact_add {
+    background: #e4f2ff;
+    padding: 25px;
+}
+
+
+.cont_logout {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cont_logout p {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #215d95;
+}
+
+/* Contact Detail */
+
+.contact_Detail img {
+    width: 20%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+.detail_list h2 {
+    font-weight: 800;
+    font-size: 20px;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.detail_list p {
+    font-weight: 600;
+    font-size: 16px;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.contact_Detail {
+    background: aliceblue;
+    padding: 6%;
+    text-align: center;
+}
+
+.contact_list a {
+    color: black;
+}
+
+/* About Us */
+.progress_bar_effect {
+    margin-top: 5%;
+}
+.progress_bar_effect .progress {
+    margin: 3% 0px 3% 0px;
+}
+.progress_bar_effect H3 {
+    font-size: 15px;
+    font-weight: 800;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    color: #202020;
+}
