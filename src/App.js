@@ -82,7 +82,7 @@ function App() {
 
   return (
     <Router>
-      <Route exact path="https://rishabhmanjunathdesigner96.github.io/portfolio" component={Home} />
+      <Route exact path="/" component={Home} />
 
       <Route path="/contact_list" render={(props) => (<ContactList {...props} contacts={contacts} getContactId={removeContactHandler} />)} />
       <Route path="/add" render={(props) => (<AddContact {...props} addContactHandlar={addContactHandlar} />)} />
