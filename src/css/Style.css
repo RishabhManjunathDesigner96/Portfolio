@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto";
+    background-color: #00000f;
 }
 
 .Navigation_head .nav-link {
@@ -7,10 +8,13 @@ body {
     font-weight: 700;
     font-family: system-ui;
     color: #478ecf;
+
+
 }
 
 .Navigation_head .nav-link:hover {
     color: black;
+
 }
 
 .Navigation_head .navbar-toggler.collapsed {
@@ -21,7 +25,7 @@ body {
     font-weight: 800;
     font-size: 55px;
     font-family: cursive;
-    background: #478ecf;
+    background: linear-gradient(76deg, #e5bbed, #33054e);
     border-radius: 56px;
     padding: 15px;
     color: white;
@@ -39,14 +43,17 @@ body {
 }
 
 .d_color {
-    color: #215d95;
+    background: linear-gradient(50deg, #200d6a, #130648 31.28%, #360240 77.97%, #fff759 95.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: -webkit-xxx-large;
 }
 
 .banne_head h1 {
     font-weight: 800;
-    font-size: 40px;
+    font-size: 28px;
     font-family: system-ui;
-    color: #478ecf;
+    color: white;
 }
 
 #banner_lay {
@@ -58,6 +65,7 @@ body {
     letter-spacing: 1px;
     line-height: 26px;
     text-align: justify;
+    color: white;
 }
 
 .img_responsive {
@@ -73,8 +81,8 @@ body {
 .banne_head h4 {
     font-weight: 800;
     letter-spacing: 1px;
-    font-size: 25px;
-    color: #215d95;
+    font-size: 17px;
+    color: #ffffff;
     padding-top: 2%;
     padding-bottom: 2%;
     font-family: system-ui;
@@ -83,9 +91,10 @@ body {
 .banne_img:before {
     content: '';
     position: absolute;
-    width: 20%;
+    width: 30%;
     height: 70%;
-    background: #d3eaff;
+    left: 57%;
+    background: linear-gradient(50deg, #0b0036, #070024 31.28%, #220328 77.97%, #343203 95.64%);
     z-index: -1;
     top: 30%;
 }
@@ -99,18 +108,18 @@ body {
 }
 
 .banne_head .btn-primary:hover {
-    background: #478ecf;
+    background: linear-gradient(50deg, #714dff, #9c83ff 31.28%, #e151ff 77.97%, #fff759 95.64%);
     color: white;
 }
 
 .banne_head .btn-warning:focus {
-    background: #ffc107;
+    background: #fff759;
     color: black;
 }
 
 .banne_head .btn-primary {
     font-weight: 600;
-    color: #478ecf;
+    color: #714dff;
     box-shadow: 0 2px 5px rgba(112, 60, 60, 0.26);
     margin-right: 5%;
     padding: 8px 40px;
@@ -122,7 +131,7 @@ body {
 
 .banne_head .btn-warning {
     font-weight: 600;
-    background: #478ecf;
+    background: linear-gradient(50deg, #200d6a, #130648 31.28%, #360240 77.97%, #fff759 95.64%);
     color: white;
     box-shadow: 0 2px 5px rgba(112, 60, 60, 0.26);
     margin-right: 5%;
@@ -135,12 +144,11 @@ body {
 /* Banner 2 */
 
 #banner2 {
-    background: #d3eaff;
     width: 100%;
     padding: 3% 10%;
     text-align: center;
-    color: #215d95;
-    margin-bottom: 5%;
+    color: white;
+    margin-bottom: 0%;
 }
 
 .email_claim h2 {
@@ -149,6 +157,9 @@ body {
     font-family: system-ui;
     padding-bottom: 1%;
     font-size: 30px;
+    background: linear-gradient(45deg, #714dff, #9c83ff 24.28%, #e151ff 66.97%, #fff759 34.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .email_claim p {
@@ -180,7 +191,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #478ecf;
+    color: white;
 }
 
 
@@ -190,7 +201,9 @@ a {
     font-family: system-ui;
     padding-bottom: 1%;
     font-weight: 800;
-    color: #215d95;
+    background: linear-gradient(45deg, #714dff, #9c83ff 24.28%, #e151ff 66.97%, #fff759 34.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact_info h5 {
@@ -198,7 +211,7 @@ a {
     font-family: system-ui;
     padding-bottom: 1%;
     font-weight: 800;
-    color: #215d95;
+    color: #ffffff;
 }
 
 #con_list {
@@ -229,7 +242,9 @@ a {
 #Contact_li {
     width: 55%;
     padding: 3%;
-    background: #d3eaff;
+    color: white;
+    border: 1px solid #444444;
+    box-shadow: 2px 10px 134px #394eb34a;
 }
 
 input.form-control {
@@ -253,14 +268,14 @@ input.form-control {
     font-weight: 600;
     font-size: 12px;
     margin-top: 1%;
-    background: #d3eaff96;
+    background: #0d0d1b;
     transition: 0.5s;
     position: relative;
     height: 100px;
 }
 
 .item_list:hover {
-    box-shadow: 0px 5px 13px 0px #e1e1e1f0;
+
     transition: 0.5s;
     margin-left: 10px;
 }
@@ -272,6 +287,7 @@ input.form-control {
     font-weight: 700;
     font-family: system-ui;
     width: 80%;
+    color: white;
 }
 
 .item_list p {
@@ -279,10 +295,11 @@ input.form-control {
     padding: 0px;
     font-size: 14px;
     width: 80%;
+    color: white;
 }
 
 .del_ico {
-    color: #cf0d0d;
+    color: #580202;
     float: right;
     position: absolute;
     top: 40%;
@@ -291,7 +308,7 @@ input.form-control {
 }
 
 .edit_ico {
-    color: #2baf1b;
+    color: #0f6205d1;
     float: right;
     position: absolute;
     top: 40%;
@@ -315,21 +332,45 @@ input.form-control {
 .contact_add .btn-outline-success {
     font-weight: 700;
     font-size: 13px;
-    border: 1px solid green;
+    background: linear-gradient(34deg, #714dff, #9c83ff 24.28%, #e151ff 83.97%, #fff759 30.64%);
+    color: white;
+    border: 1px solid #ffffff40;
+}
+
+.contact_add .btn-outline-warning {
+    font-weight: 700;
+    font-size: 13px;
+    background: linear-gradient(34deg, #714dff, #9c83ff 24.28%, #e151ff 83.97%, #fff759 30.64%);
+    color: white;
+    border: 1px solid #ffffff40;
+}
+
+.contact_add .btn-outline-warning:focus {
+    font-weight: 700;
+    font-size: 13px;
+    background: linear-gradient(34deg, #714dff, #9c83ff 24.28%, #e151ff 83.97%, #fff759 30.64%);
+    color: white;
+    border: 1px solid #ffffff40;
 }
 
 .contact_add .btn-outline-success:hover {
     font-weight: 700;
     font-size: 13px;
-    background: #215d95;
-    border: 1px solid #215d95;
+    background: white;
+    border: 1px solid #e151ff;
+    color: #e151ff;
 }
 
 .contact_add {
-    background: #e4f2ff;
+    background: #ffffff0d;
     padding: 25px;
+    color: white;
 }
 
+.contact_add:before {
+    background: #ffffff0d;
+
+}
 
 .cont_logout {
     display: flex;
@@ -340,7 +381,7 @@ input.form-control {
     font-size: 15px;
     font-weight: 800;
     letter-spacing: 1px;
-    color: #215d95;
+    color: #ffffff;
 }
 
 /* Contact Detail */
@@ -368,9 +409,11 @@ input.form-control {
 }
 
 .contact_Detail {
-    background: aliceblue;
+    background: #ffffff00;
     padding: 6%;
     text-align: center;
+    border: 1px solid #80808070;
+    color: white;
 }
 
 .contact_list a {
@@ -381,13 +424,77 @@ input.form-control {
 .progress_bar_effect {
     margin-top: 5%;
 }
+
 .progress_bar_effect .progress {
     margin: 3% 0px 3% 0px;
 }
+
 .progress_bar_effect H3 {
     font-size: 15px;
     font-weight: 800;
     font-family: system-ui;
     letter-spacing: 1px;
     color: #202020;
+}
+
+#banner_list {
+    margin-top: 11%;
+}
+
+.banne_future {
+    color: white;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #8080807a;
+    margin-bottom: 5%;
+    width: 80%;
+    transition: 0.5s;
+}
+
+.banne_future:hover {
+    margin-left: -18%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banne_future h1 {
+    font-weight: 800;
+    font-size: 40px;
+    padding-bottom: 8px;
+}
+
+.banne_future p {
+    font-size: 18px;
+    padding-bottom: 17px;
+}
+
+.banne_future1 {
+    color: #ffffff59;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #8080807a;
+    margin-bottom: 5%;
+    width: 80%;
+    transition: 0.5s;
+    margin-left: 10%;
+    background: linear-gradient(78deg, #d545e5, #7c6adf 15.28%, #5f2197 29.97%, #dbd444 95.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banne_future1:hover {
+    margin-left: -18%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banne_future1 h1 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+.banne_future1 p {
+    font-size: 14px;
+    padding-bottom: 17px;
 }

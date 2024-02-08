@@ -31,6 +31,27 @@ function Home() {
                         </Col>
                     </Row>
                 </Container>
+                <Container id="banner_list">
+                    <Row>
+                        <Col lg={4} md={4} sm={12} >
+                  
+                        </Col>
+                        <Col lg={8} md={8} sm={12} >
+                        <div className='banne_future'>
+                                <h1>Fine-Tuning and RLHF</h1>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                            </div>
+                            <div className='banne_future1'>
+                                <h1>Foundation Models</h1>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                            </div>
+                            <div className='banne_future'>
+                                <h1>Enterprise Data</h1>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
             <Email />
         </div>

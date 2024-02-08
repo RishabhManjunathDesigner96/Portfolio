@@ -29,7 +29,7 @@ const ContactList = (props) => {
             <div className='contact_add'>
               <h5>CONTACT LIST</h5>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-              <Link to="/add"><Button size="sm" variant="outline-success" className='btn_p' type="submit">ADD CONTACT</Button></Link>
+              <Link to="/add"><Button size="sm" variant="outline-warning" className='btn_p' type="submit">ADD CONTACT</Button></Link>
             </div>
           </Col>
           <Col lg={8} md={8} sm={12} >
