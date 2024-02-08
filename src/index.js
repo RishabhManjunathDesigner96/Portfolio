@@ -4,7 +4,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
- 
+import {BrowserRouter} from "react-router-dom";
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 axios.defaults.baseURL = process.env.REACT_APP_API_URL
  
@@ -15,9 +17,9 @@ axios.interceptors.request.use(function (config) {
  
  
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <App />
+</BrowserRouter>
 );
  
 // If you want to start measuring performance in your app, pass a function
