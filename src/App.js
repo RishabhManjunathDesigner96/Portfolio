@@ -12,6 +12,7 @@ import About from './pages/About';
 import { v4 as uuidv4 } from 'uuid';
 import api from "./api/contacts";
 import EditContact from "./pages/EditContact";
+import Login from "./pages/Login";
 
 function App() {
 
@@ -89,6 +90,7 @@ function App() {
       <Route path="/edit" render={(props) => (<EditContact {...props} updateContactHandlar={updateContactHandlar} />)} />
       <Route path="/contact/:id" component={ContactDetail}></Route>
       <Route path="/about"><About/></Route>
+      <Route path="/login"><Login/></Route>
     </Router>
   );
 }
