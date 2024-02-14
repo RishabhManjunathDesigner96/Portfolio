@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto";
-    background-color: #00000f;
+    background-color: #09002e;
 }
 
 .Navigation_head .nav-link {
@@ -25,7 +25,7 @@ body {
     font-weight: 800;
     font-size: 55px;
     font-family: cursive;
-    background: linear-gradient(76deg, #e5bbed, #33054e);
+    background: linear-gradient(76deg, #55255e, #1b0328);
     border-radius: 56px;
     padding: 15px;
     color: white;
@@ -43,7 +43,7 @@ body {
 }
 
 .d_color {
-    background: linear-gradient(50deg, #200d6a, #130648 31.28%, #360240 77.97%, #fff759 95.64%);
+    background: linear-gradient(50deg, #ad4a60, #130648 39.28%, #2c0240 35.97%, #ffbc00 45.64%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: -webkit-xxx-large;
@@ -51,7 +51,7 @@ body {
 
 .banne_head h1 {
     font-weight: 800;
-    font-size: 28px;
+    font-size: 54px;
     font-family: system-ui;
     color: white;
 }
@@ -67,15 +67,19 @@ body {
     text-align: justify;
     color: white;
 }
-
+#banner1 {
+    clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
+    padding-bottom: 2%;
+}
 .img_responsive {
     width: 100%;
     height: auto;
 }
 
 .b_pop {
-    width: 75%;
+    width: 85%;
     float: right;
+    margin-top: 10%;
 }
 
 .banne_head h4 {
@@ -92,8 +96,8 @@ body {
     content: '';
     position: absolute;
     width: 30%;
-    height: 70%;
-    left: 57%;
+    height: 60%;
+    left: 54%;
     background: linear-gradient(50deg, #0b0036, #070024 31.28%, #220328 77.97%, #343203 95.64%);
     z-index: -1;
     top: 30%;
@@ -131,7 +135,7 @@ body {
 
 .banne_head .btn-warning {
     font-weight: 600;
-    background: linear-gradient(50deg, #200d6a, #130648 31.28%, #360240 77.97%, #fff759 95.64%);
+    background: linear-gradient(50deg, #714dff, #9c83ff 31.28%, #e151ff 77.97%, #fff759 95.64%);
     color: white;
     box-shadow: 0 2px 5px rgba(112, 60, 60, 0.26);
     margin-right: 5%;
@@ -452,7 +456,6 @@ input.form-control {
 }
 
 .banne_future:hover {
-    margin-left: -18%;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -477,13 +480,12 @@ input.form-control {
     width: 80%;
     transition: 0.5s;
     margin-left: 10%;
-    background: linear-gradient(78deg, #d545e5, #7c6adf 15.28%, #5f2197 29.97%, #dbd444 95.64%);
+    background: linear-gradient(50deg, #714dff, #9c83ff 31.28%, #e151ff 77.97%, #fff759 95.64%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .banne_future1:hover {
-    margin-left: -18%;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -497,4 +499,52 @@ input.form-control {
 .banne_future1 p {
     font-size: 14px;
     padding-bottom: 17px;
+}
+
+#about_list {
+    margin-top: 11%;
+    background: #ffc519;
+}
+#about_list {
+    margin-top: 5%;
+    border-right: 20px solid #9e81ff;
+    background: #0d045b;
+    padding: 5% 0px 5% 0px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.mine_future h1 {
+    font-weight: 800;
+    font-family: system-ui;
+    color: white;
+    font-size: 40px;
+}
+.mine_future {
+    width: 80%;
+}
+.mine_future p {
+    font-weight: 600;
+    font-family: system-ui;
+    color: white;
+    font-size: 15px;
+}
+.why_me {
+    background: white;
+    padding: 9% 5% 5% 2%;
+    position: absolute;
+    width: 30%;
+    top: 0%;
+    height: 100%;
+    color: #09002e;
+    font-weight: 800;
+    font-family: system-ui;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.why_me h2 {
+    color: #09002e;
+    font-family: system-ui;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: justify;
 }

@@ -13,7 +13,7 @@ import { v4 as uuidv4 } from 'uuid';
 import api from "./api/contacts";
 import EditContact from "./pages/EditContact";
 import Login from "./pages/Login";
-
+import Todo from "./pages/Todo";
 function App() {
 
   // const LOCAL_STORAGE_KEY = "contacts";
@@ -91,6 +91,7 @@ function App() {
       <Route path="/contact/:id" component={ContactDetail}></Route>
       <Route path="/about"><About/></Route>
       <Route path="/login"><Login/></Route>
+      <Route path="/todo"><Todo/></Route>
     </Router>
   );
 }
